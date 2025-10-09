@@ -22,12 +22,9 @@ github: mirulili
 short_bio_text_justify: false
 short_bio: >-
   <p>
-    A <a href="https://en.wikipedia.org/wiki/Bicolor_cat" target="_blank">bicolor cat</a> is a cat with white fur combined with fur of some other colour, for example solid black, tabby, or colourpointed.
-  </p>
-  <p>
-    There are various patterns of a bicolour cat. These range from the Van-patterned (colour on the crown of the head 
-    and the tail only) to a solid colour with a throat locket or medallion. Bicolour coats are found in many cat breeds, 
-    as well as being common in domestic longhair and domestic shorthair cats.
+    Computer Science student trained in CS principles. 
+    Experienced in developing AI agents and applications based on LLM, with focus on GenerativeAI and practical software development. 
+    Proficient in C + +, C, and Python with hands-on experience in PyTorch and Docker environments.
   </p>
 
 portrait_url: /assets/images/photos/avatar.jpeg
@@ -36,7 +33,7 @@ portrait_caption: >-
 
 education:
 - name: Yonsei University (Seoul)
-  logo: /assets/images/badges/MIT_Social_circle.png
+  # logo: /assets/images/badges/MIT_Social_circle.png
   position: >-
     B.S. in Computer Science
   date: Aug 2026 (Expected)
@@ -47,3 +44,30 @@ experience:
 #   logo: /assets/images/badges/PKU_red.png
 #   position: 
 #   date: Sep. 2019 - Jul. 2021
+---
+
+## 💼 Experience
+
+### 🌏 Working Holiday Program — *Sydney, Australia*  
+📅 Mar 2023 – Nov 2023  
+
+> - Developed cross-cultural communication skills.  
+> - Received personal mentorship from a senior engineer at a leading tech company.  
+
+---
+
+### 💖 Member — Bon Bon Volunteering Club *(Yonsei Univ.)*  
+📅 Mar 2021 – Jun 2021  
+
+> - Organized and hosted a university flea market.  
+> - Successfully raised funds, fully donated to local charity organizations.  
+
+---
+
+### 📚 Academic Outreach Mentor *(Coursework, Yonsei Univ.)*  
+📅 Sep 2018 – Dec 2018  
+
+> - Provided educational mentoring to out-of-school youth.  
+> - Focused on instructional clarity and adapting to diverse learning environments.  
+
+---
