@@ -1,0 +1,25 @@
+/* Custom Font Styles */
+
+/*
+ * .card-title-custom: 카드 위젯의 메인 제목 (예: Experience, Projects)
+ * .item-title-custom: 카드 내부 항목의 제목 (예: 회사명, 프로젝트명)
+ * .item-subtitle-custom: 부가 정보 (예: 부서, 직책)
+ * .item-description-custom: 설명글 (예: 요약)
+ * .item-meta-custom: 날짜 등 메타 정보
+*/
+
+.card-title-custom {
+    font-size: 1.1rem; /* 17.6px */
+    font-weight: 600;
+}
+
+.item-title-custom {
+    font-weight: 600;
+}
+
+.item-subtitle-custom,
+.item-description-custom,
+.item-meta-custom {
+    font-size: 0.875rem; /* 14px */
+    color: #6c757d; /* text-muted color */
+}

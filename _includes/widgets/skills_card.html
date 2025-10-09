@@ -1,0 +1,45 @@
+<!-- skills card -->
+
+<div class="row my-4 d-flex align-items-stretch">
+    {% if site.data.profile.techs %}
+    <div class="col-md-6">
+        <div class="card border-0 shadow-sm bg-white h-100 rounded-xl">
+            <div class="card-body p-4">
+                <h6 class="mb-3"><i class="fas fa-code"></i> &nbsp;Technical Skills</h6>
+                {% assign pastel_colors = "#cdeaff,#d8f3dc,#fefae0,#ffdde5,#e4d9ff,#ffe8d6" | split: "," %}
+                {% for item in site.data.profile.techs %}
+                <div class="mb-3">
+                    <div class="mb-1">{{ item.name }}</div>
+                    {% assign skills = item.detail | split: ', ' %}
+                    {% assign offset = forloop.index0 %}
+                    {% for skill in skills %}
+                    {% assign color_index = forloop.index0 | plus: offset | modulo: pastel_colors.size %}<span class="badge text-dark mr-1 mb-1" style="background-color: {{ pastel_colors[color_index] }}">{{ skill }}</span>
+                    {% endfor %}
+                </div>
+                {% endfor %}
+            </div>
+        </div>
+    </div>
+    {% endif %}
+    {% if site.data.profile.langs %}
+    <div class="col-md-6">
+        <div class="card border-0 shadow-sm bg-white h-100 rounded-xl">
+            <div class="card-body p-4">
+                <h6 class="mb-4"><i class="fas fa-language"></i> &nbsp;Languages</h6>
+                <div class="row">
+                    {% for item in site.data.profile.langs %}
+                    <div class="col-6">
+                        <div class="card bg-light border-0">
+                            <div class="card-body text-center p-3">
+                                <h6 class="card-title mb-1">{{ item.name }}</h6>
+                                <p class="card-text small text-muted mb-0">{{ item.detail }}</p>
+                            </div>
+                        </div>
+                    </div>
+                    {% endfor %}
+                </div>
+            </div>
+        </div>
+    </div>
+    {% endif %}
+</div>

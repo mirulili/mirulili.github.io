@@ -1,5 +1,6 @@
 @charset "utf-8";
 body {
+    font-size: 1.05rem; 
     font-family: "Lato", sans-serif;
     font-weight: 400;
     padding-top: 5.0rem;
@@ -7,7 +8,17 @@ body {
 
 h1, h2, h3, h4, h5, h6,
 .h1, .h2, .h3, .h4, .h5, .h6 {
-    font-weight: 700;
+    font-weight: 600;
+}
+
+/* Increase card title font size */
+.card h6, .rounded-xl h6 {
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+
+.border-top-faint {
+    border-top: 1px solid #eeeeee !important;
 }
 
 .card {
@@ -19,7 +30,7 @@ h1, h2, h3, h4, h5, h6,
 }
 
 .rounded-xl {
-    border-radius: 0.8rem!important;
+    border-radius: 1rem!important;
 }
 
 .rounded-xl-bottom {
@@ -89,4 +100,3 @@ div.lazy {
 .email-text {
     font-family: Courier, monospace;
 }
-

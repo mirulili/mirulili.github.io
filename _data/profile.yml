@@ -45,7 +45,7 @@ portrait_url: /assets/images/photos/avatar.jpeg
 education:
 - name: Yonsei University (Seoul)
   # logo: /assets/images/badges/yonsei_logo.png
-  position: >-
+  dept: >-
     B.S. in Computer Science
   date: Aug 2026 (Expected)
 
@@ -72,12 +72,12 @@ experience:
 
 
 projects:
-- title: AI Finance Agent using MCP Server - Koscom AI Agent Challenge 2025 Finalist (Top 10 out of 72 teams)
+- title: AI Finance Agent using MCP Server — Koscom AI Agent Challenge 2025 Finalist (Top 10 out of 72 teams)
   date: Sep. 2025 – Ongoing
   abstract: >-
-    Built an AI agent for stock recommendation using MCP Server and FastAPI (Python).<br>
-    Implemented momentum-based scoring integrated with news sentiment analysis (XLM-RoBERTa Model).<br>
-    • Tools: Python, Pandas, PyTorch, Docker<br><br>
+    Built an AI agent for stock recommendation using MCP Server and FastAPI (Python). <br>
+    Implemented momentum-based scoring integrated with news sentiment analysis (XLM-RoBERTa Model). <br>
+    • Tools: Python, Pandas, PyTorch, Docker <br><br>
 
 - title: Team Leader, LLM Watermark Project (Yonsei Univ.) 
   date: Aug. 2025 – Ongoing
@@ -86,5 +86,28 @@ projects:
     fidelity rate against common model editing attacks.<br><br>
 
 
----
+
+techs:
+- name: Languages
+  detail: C + +, C, Python
+
+- name: Frameworks & Libraries
+  detail: PyTorch, FastAPI, Pandas, XLM-RoBERTa
+
+- name: Tools & Platforms
+  detail: Linux System, Docker, Git/GitHub, Microsoft VS Code, Xcode
+
+#- name: Problem-Solving
+ # detail: Solved over 400 algorithmic and data structure problems (C + +) on Baekjoon Online Judge, demonstrating a deep understanding of the basic principles of CS.
+
+interest:
+- name: Generative AI and LLM
+- name: Software Development (Backend/System Programming)
+
+langs:
+- name: Korean
+  detail: Native
+
+- name: English
+  detail: IELTS 7.0<br>OPIc IH
 
