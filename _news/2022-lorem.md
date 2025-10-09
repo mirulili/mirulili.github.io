@@ -1,4 +1,7 @@
 ---
-title: Lorem ipsum sit amet, consectetur adipiscing elit, sed do eiusmod tempor 
-date: 2022-01-12 00:01:00 +0800
+title: Team Leader, LLM Watermark Project (Yonsei Univ.) 
+date: 'Aug. 2025 - Ongoing'
+abstract: >-
+    Designed a robust watermark injection algorithm for open source LLMs, with the aim of achieving > 95%
+    fidelity rate against common model editing attacks.
 ---
