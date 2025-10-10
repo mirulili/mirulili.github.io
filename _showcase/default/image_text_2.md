@@ -8,7 +8,7 @@ date: 2020-01-12 00:01:00 +0800
   <div class="card-body">
     <h5 class="card-title">Sesame (a girl)</h5>
     <p class="card-text">
-      Living with my hamster, who is a year and a half old. 
+      Living with a hammy, who is a year and a half old. 
     </p>
   </div>
 </div>
