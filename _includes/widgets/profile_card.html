@@ -93,6 +93,12 @@
                             <i class="fab fa-orcid"></i> ORCID
                         </a>
                         {% endif %}
+
+                        {% if site.data.profile.website %}
+                        <a class="btn btn-outline-secondary btn-sm mr-2 mb-2" target="_blank" href="{{ site.data.profile.website | relative_url }}">
+                            <i class="fas fa-globe"></i> Website
+                        </a>
+                        {% endif %}
                     </div>
                 </div>
             </div>

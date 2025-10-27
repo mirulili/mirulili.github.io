@@ -1,8 +1,8 @@
-{% if site.data.profile.projects %}
-    {% assign exp_by_year = site.data.profile.experience | group_by_exp: "item", "item.date | date: '%Y'" %}
+{% if site.data.profile.activities %}
+    {% assign exp_by_year = site.data.profile.activities | group_by_exp: "item", "item.date | date: '%Y'" %}
     <div class="my-4 bg-white shadow-sm rounded-xl">
         <div class="p-4">
-            <h6 class="mb-3"><i class="fas fa-briefcase"></i> &nbsp;Experience</h6>
+            <h6 class="mb-3"><i class="fas fa-briefcase"></i> &nbsp;Activities & Engagements</h6>
             {% assign not_first = false %}
             {% for year in exp_by_year %}
             <div class="media py-1">

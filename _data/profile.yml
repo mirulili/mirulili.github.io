@@ -12,6 +12,7 @@ email: "mirulili@yonsei.ac.kr"
 # cv_link: link-to-your-cv-file
 # gscholar: xFmQpf4AAAAJ  # This is an example, replace it with your own Google Scholar ID
 github: mirulili
+website: https://mirulili.github.io/blog
 # twitter: your_twitter_id  # Do not include the '@' symbol
 # wechat_qrcode: /assets/images/etc/wechat.jpg
 # wechat_prompt: >-
@@ -29,8 +30,9 @@ short_bio: >-
     My journey in Computer Science began with a transition from literature, driven by a spirit of challenge. 
     Facing initial setbacks, I decided to take a break and seek a new perspective during a working holiday in Australia. 
     It was there, quite unexpectedly, that I received personal mentorship from a senior engineer. 
-    This invaluable opportunity became a turning point, solidifying my career conviction and fueling my current dedication 
-    to continuous learning and growth.
+    This invaluable opportunity became a turning point, solidifying my career conviction and fueling my dedication 
+    to continuous learning. After 8 hours of work from cafe during the day, I devoted hours every day 
+    to studying algorithms, gradually building a firm foundation in computer science.
   </p>
   <p>
     I am currently leading a capstone project on LLM watermarking, an area that aligns with my keen
@@ -50,7 +52,7 @@ education:
   date: Aug 2026 (Expected)
 
 
-experience:
+activities:
 - name: Working Holiday Program — Sydney, Australia
   date: Mar. 2023 – Nov. 2023  
   position: >- 
