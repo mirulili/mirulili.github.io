@@ -23,21 +23,16 @@ linkedin: heeji-kang
 short_bio_text_justify: false
 short_bio: >-
   <p>
-    A passionate computer science student with a robust foundation in algorithms and
-    problem-solving.
+  I am a passionate Computer Science student with a strong foundation in CS principles and algorithms. I also enjoy algorithmic problem-solving, having solved over 400 problems on the competitive programming site, Baekjoon.
   </p>
   <p>
-    My journey in Computer Science began with a transition from literature, driven by a spirit of challenge. 
-    Facing initial setbacks, I decided to take a break and seek a new perspective during a working holiday in Australia. 
-    It was there, quite unexpectedly, that I received personal mentorship from a senior engineer. 
-    This invaluable opportunity became a turning point, solidifying my career conviction and fueling my dedication 
-    to continuous learning. After 8 hours of work from cafe during the day, I devoted hours every day 
-    to studying algorithms, gradually building a firm foundation in computer science.
+  My journey in Computer Science began with a transition from literature, driven by a spirit of challenge. I was deeply interested in linguistics and wanted to approach it from a more technical perspective. However, without basic knowledge in engineering, I faced setbacks, took gap years, and even decided to seek a new path by leaving for a working holiday in Australia.
   </p>
   <p>
-    I am currently leading a capstone project on LLM watermarking, an area that aligns with my keen
-    interest in <br>generative AI. I am a dedicated learner, eager to contribute to
-    innovative projects.
+  It was there, quite unexpectedly, that the landlord of the house I stayed in—a software engineer from a leading tech company—became a significant role model. Through her, I was able to regain my passion for the field. While staying in Sydney, I devoted hours every day to studying algorithms after working an eight-hour shift at a cafe, gradually building my foundation in Computer Science again.
+  </p>
+  <p>
+  Now, I believe that my resilience and fearless approach foster creativity, leading me toward a broader and more interesting world. I am currently leading a capstone project on LLM watermarking, an area that aligns with my keen interest in generative AI. I genuinely hope to contribute to innovative projects.
   </p>
 
 portrait_url: /assets/images/photos/avatar.jpeg
@@ -56,8 +51,7 @@ activities:
 - name: Working Holiday Program — Sydney, Australia
   date: Mar. 2023 – Nov. 2023  
   position: >- 
-    Developed cross-cultural communication skills.  <br>
-    Received personal mentorship from a senior engineer at a leading tech company. <br><br>
+    Developed cross-cultural communication skills.  <br><br>
 
 - name: Member — Bon Bon Volunteering Club (Yonsei Univ.)
   date: Mar. 2021 – Jun. 2021  
@@ -84,8 +78,9 @@ projects:
 - title: Team Leader, LLM Watermark Project (Yonsei Univ.) 
   date: Aug. 2025 – Ongoing
   abstract: >-
-    Designed a robust watermark injection algorithm for open source LLMs, with the aim of achieving > 95%
-    fidelity rate against common model editing attacks.<br><br>
+    Currently desining a robust watermark injection algorithm for open source LLMs, with the aim of a relative change
+    in perplexity (PPL) of less than 5% compared to unwatermarked text.<br><br>
+    • Tools: Python, PyTorch, Hugging Face Transformers <br><br>
 
 
 
@@ -103,8 +98,9 @@ techs:
  # detail: Solved over 400 algorithmic and data structure problems (C + +) on Baekjoon Online Judge, demonstrating a deep understanding of the basic principles of CS.
 
 interest:
-- name: Generative AI and LLM
-- name: Software Development (Backend/System Programming)
+- name: AI Agent and LLM Logic Design
+- name: MCP Server Development, Enhancing Generative AI Usability
+- name: Software and Service Design
 
 langs:
 - name: Korean
