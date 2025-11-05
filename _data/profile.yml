@@ -74,8 +74,8 @@ projects:
   abstract: >-
     Currently desining a robust watermark injection algorithm for open source LLMs, with the aim of a relative change
     in perplexity (PPL) of less than 5% compared to unwatermarked text.<br><br>
-    • Tools: Python, PyTorch, Hugging Face Transformers <br>
-    • https://github.com/mirulili/3Ch-Jamo-Watermark <br><br>
+    • Tools: Python, PyTorch, Hugging Face Transformers <br><br>
+    <a href="https://github.com/mirulili/3Ch-Jamo-Watermark" target="_blank" class="btn btn-outline-secondary btn-sm">Link</a> <br><br>
 
 
 
@@ -103,4 +103,3 @@ langs:
 
 - name: English
   detail: IELTS 7.0<br>OPIc IH
-
