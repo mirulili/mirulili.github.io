@@ -1,15 +1,13 @@
 {% assign item = include.item %}
 <div class="py-3 {% if include.hide_bottom_border != true %}border-bottom{% endif %}">
     <div class="d-flex">
-        <div class="item-title-custom">
-            {{ item.title }}
-        </div>
+        <strong>{{ item.title }}</strong>
         {% if item.link.url %}
         <div class="ml-auto">
             <a href="{{ item.link.url }}" target="_blank" class="btn btn-outline-secondary btn-sm">{{ item.link.text | default: "Link" }}</a>
         </div>
         {% endif %}
     </div>
-    <div class="item-meta-custom">{{ item.date }}</div>
-    <div class="item-description-custom mt-2">{{ item.abstract }}</div>
+    <div class="small text-muted">{{ item.date }}</div>
+    <div class="small mt-2">{{ item.abstract }}</div>
 </div>
