@@ -1,13 +1,19 @@
 {% assign item = include.item %}
 <div class="py-3 {% if include.hide_bottom_border != true %}border-bottom{% endif %}">
     <div class="d-flex">
-        <strong>{{ item.title }}</strong>
-        {% if item.link.url %}
-        <div class="ml-auto">
-            <a href="{{ item.link.url }}" target="_blank" class="btn btn-outline-secondary btn-sm">{{ item.link.text | default: "Link" }}</a>
+        <div>
+            <div class="d-flex">
+                <strong>{{ item.title }}</strong>
+                {% if item.link.url %}
+                <div class="ml-3">
+                    <a href="{{ item.link.url }}" target="_blank" class="btn btn-outline-secondary btn-sm">{{ item.link.text | default: "Link" }}</a>
+                </div>
+                {% endif %}
+            </div>
+            <div class="small mt-2">{{ item.abstract }}</div>
         </div>
-        {% endif %}
+        <div class="ml-auto mt-auto text-muted no-break small">
+            <i>{{ item.date }}</i>
+        </div>
     </div>
-    <div class="small text-muted">{{ item.date }}</div>
-    <div class="small mt-2">{{ item.abstract }}</div>
 </div>
