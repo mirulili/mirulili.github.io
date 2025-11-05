@@ -72,11 +72,12 @@ projects:
 - title: Team Leader, LLM Watermark Project (Yonsei Univ.) 
   date: Aug. 2025 – Ongoing
   abstract: >-
-    Currently desining a robust watermark injection algorithm for open source LLMs, with the aim of a relative change
-    in perplexity (PPL) of less than 5% compared to unwatermarked text.<br><br>
-    • Tools: Python, PyTorch, Hugging Face Transformers <br>
-    <a href="https://github.com/mirulili/3Ch-Jamo-Watermark" target="_blank" class="btn btn-outline-secondary btn-sm">Link</a> <br><br>
+    Currently designing a robust watermark injection algorithm for open source LLMs, with the aim of a relative change
+    in perplexity (PPL) of less than 5% compared to unwatermarked text.<br><br>• Tools: Python, PyTorch, Hugging Face Transformers <br><br>
 
+  link:
+    url: https://github.com/mirulili/3Ch-Jamo-Watermark
+    text: Link to Repository
 
 
 techs:

@@ -1,29 +1,12 @@
 {% if site.data.profile.projects %}
-    {% assign news_by_year = site.data.profile.projects | group_by_exp: "item", "item.date | date: '%Y'" %}
     <div class="my-4 bg-white shadow-sm rounded-xl">
         <div class="p-4">
-            <h6 class="mb-3"><i class="fas fa-lightbulb"></i> &nbsp;Projects</h6>
-            {% assign not_first = false %}
-            {% for year in news_by_year %}
-            <div class="media py-1">
-                {% assign not_first = true %}
-                <div class="media-body">
-                    {% for item in year.items %}
-                        <div class="d-flex pb-3 {% if forloop.parentloop.index0 > 0 or forloop.index0 > 0 %}pt-3 border-top-faint{% endif %}">
-                            <div>
-                                <strong>{{ item.title }}</strong>
-                                {% if item.dept %}
-                                <span class="text-muted small"> — {{ item.dept }}</span>
-                                {% endif %}
-                                <div class="small">{{ item.abstract }}</div>
-                            </div>
-                            <div class="ml-auto mt-auto text-muted no-break small">
-                                <i>{{ item.date }}</i>
-                            </div>
-                        </div>
-                    {% endfor %}
-                </div>
-            </div>
+            <h6 class="mb-0 card-title-custom"><i class="fas fa-star"></i> &nbsp;Projects</h6>
+            {% for item in site.data.profile.projects %}
+                {% include widgets/news_item.html 
+                    item=item 
+                    hide_bottom_border=forloop.last 
+                %}
             {% endfor %}
         </div>
     </div>
