@@ -7,7 +7,6 @@ navbar_name: "mirulili.github.io"
 #  name: Position 1 with logo
 #- name: Position 2 without logo
 
-
 email: "mirulili(at)yonsei.ac.kr"
 # cv_link: link-to-your-cv-file
 # gscholar: xFmQpf4AAAAJ  # This is an example, replace it with your own Google Scholar ID
@@ -30,106 +29,100 @@ short_bio: >-
   I genuinely hope to contribute to innovative projects.
   </p>
 
-portrait_url: /assets/images/photos/avatar.jpeg
- #portrait_caption: >-
+portrait_url:
+  /assets/images/photos/avatar.jpg
+  #portrait_caption: >-
   #in New Zealand, 2023
 
 education:
-- name: Yonsei University, Seoul, Republic of Korea
-  # logo: /assets/images/badges/yonsei_logo.png
-  dept: >-
-    B.S. in Computer Science (Minor: German Language and Literature)
-  position: >-
-    <span class="text-muted">Relevant Coursework: Machine Learning, Artificial Intelligence, Reinforcement Learning, Computer Vision, Multicore &amp; GPU Programming, Operating Systems, Computer Architecture, Data Privacy.</span>
-  date: Feb 2027 (Expected)
-
+  - name: Yonsei University, Seoul, Republic of Korea
+    # logo: /assets/images/badges/yonsei_logo.png
+    dept: >-
+      B.S. in Computer Science (Minor: German Language and Literature)
+    position: >-
+      <span class="text-muted">Relevant Coursework: Machine Learning, Artificial Intelligence, Reinforcement Learning, Computer Vision, Multicore &amp; GPU Programming, Operating Systems, Computer Architecture, Data Privacy.</span>
+    date: Feb 2027 (Expected)
 
 research_experience:
-- title: AI Research Intern, NewCureM (Severance Hospital Subsidiary), Seoul, Korea
-  date: Mar 2026 – Present
-  abstract: >-
-    • Conducting research on reliable medical imaging and clinical NLP pipelines under the supervision of Yonsei University College of Medicine faculty.<br>
-    • Developed a region-aware deep learning model for multi-class neurodegenerative disease classification using brain FDG-PET imaging, leveraging normative modeling and voxel-wise metabolic deviation maps (Z-maps) to capture disease-specific regional patterns (achieving 87.2% accuracy and 84.8% balanced accuracy on a held-out cohort of 755 cases).<br>
-    • Developed an automated natural language radiology report generation system, combining domain-adapted LLM instruction-tuning with deterministic rendering of structured fields to improve clinical consistency, receiving highly positive feedback from radiologists.<br>
-    • Developing a Korean synthetic EHR generation framework based on Synthea, targeting interoperability with the KR Core FHIR standard.
+  - title: AI Research Intern, NewCureM (Severance Hospital Subsidiary), Seoul, Korea
+    date: Mar 2026 – Present
+    abstract: >-
+      • Conducting research on reliable medical imaging and clinical NLP pipelines under the supervision of Yonsei University College of Medicine faculty.<br>
+      • Developed a region-aware deep learning model for multi-class neurodegenerative disease classification using brain FDG-PET imaging, leveraging normative modeling and voxel-wise metabolic deviation maps (Z-maps) to capture disease-specific regional patterns (achieving 87.2% accuracy and 84.8% balanced accuracy on a held-out cohort of 755 cases).<br>
+      • Developed an automated natural language radiology report generation system, combining domain-adapted LLM instruction-tuning with deterministic rendering of structured fields to improve clinical consistency, receiving highly positive feedback from radiologists.<br>
+      • Developing a Korean synthetic EHR generation framework based on Synthea, targeting interoperability with the KR Core FHIR standard.
 
-- title: Team Leader, Hangul-Aware LLM Watermarking Project, Yonsei University
-  date: Aug 2025 – Dec 2025
-  abstract: >-
-    • Designed a Hangul-aware watermark embedding algorithm for open-source LLMs, leveraging the structural properties of Korean grapheme composition.<br>
-    • Explored watermark encoding and detection mechanisms based on Hangul decomposition (choseong, jungseong, and jongseong), targeting robustness against paraphrasing while preserving text naturalness.<br>
-    • Led the end-to-end experimental pipeline, including open-source LLM fine-tuning, statistical detectability evaluation, and perplexity-based quality assessment.
-  link:
-    url: https://github.com/mirulili/3Ch-Jamo-Watermark
-    text: Link to Repository
-
+  - title: Team Leader, Hangul-Aware LLM Watermarking Project, Yonsei University
+    date: Aug 2025 – Dec 2025
+    abstract: >-
+      • Designed a Hangul-aware watermark embedding algorithm for open-source LLMs, leveraging the structural properties of Korean grapheme composition.<br>
+      • Explored watermark encoding and detection mechanisms based on Hangul decomposition (choseong, jungseong, and jongseong), targeting robustness against paraphrasing while preserving text naturalness.<br>
+      • Led the end-to-end experimental pipeline, including open-source LLM fine-tuning, statistical detectability evaluation, and perplexity-based quality assessment.
+    link:
+      url: https://github.com/mirulili/3Ch-Jamo-Watermark
+      text: Link to Repository
 
 awards:
-- title: ETRI President’s Award, AI Co-Scientist Challenge Korea 2026
-  date: Apr 2026
-  abstract: >-
-    • Received the ETRI President’s Award (KRW 1.5 million) in a national AI agent competition hosted by MSIT (Ministry of Science and ICT) and KISTI (Korea Institute of Science and Technology Information), selected among the Top 10 finalist teams out of 272 competing teams.<br>
-    • Architected a 7-agent workflow using LangGraph and vLLM, embedding statistical watermarks at generation time to preserve provenance across human edits.<br>
-    • Designed a 4-signal verification pipeline combining watermark z-score detection, token-level diff attribution, and citation/reproducibility risk scoring on arXiv and LLaMA benchmarks.
+  - title: ETRI President’s Award, AI Co-Scientist Challenge Korea 2026
+    date: Apr 2026
+    abstract: >-
+      • Received the ETRI President’s Award (KRW 1.5 million) in a national AI agent competition hosted by MSIT (Ministry of Science and ICT) and KISTI (Korea Institute of Science and Technology Information), selected among the Top 10 finalist teams out of 272 competing teams.<br>
+      • Architected a 7-agent workflow using LangGraph and vLLM, embedding statistical watermarks at generation time to preserve provenance across human edits.<br>
+      • Designed a 4-signal verification pipeline combining watermark z-score detection, token-level diff attribution, and citation/reproducibility risk scoring on arXiv and LLaMA benchmarks.
 
-- title: Top 10 Finalist, Koscom AI Agent Challenge 2025
-  date: Dec 2025
-  abstract: >-
-    • Selected as a Top 10 finalist out of 71 teams in a financial AI agent competition hosted by Koscom (the capital market IT infrastructure subsidiary of the Korea Exchange, KRX).<br>
-    • Built an end-to-end financial analysis agent using MCP servers, FastAPI, and ChromaDB RAG, integrating 2-stage multi-factor scoring (RSI/ATR momentum, KR-FinBERT sentiment with exponential decay) and market regime circuit breakers validated via historical backtesting.
-
+  - title: Top 10 Finalist, Koscom AI Agent Challenge 2025
+    date: Dec 2025
+    abstract: >-
+      • Selected as a Top 10 finalist out of 71 teams in a financial AI agent competition hosted by Koscom (the capital market IT infrastructure subsidiary of the Korea Exchange, KRX).<br>
+      • Built an end-to-end financial analysis agent using MCP servers, FastAPI, and ChromaDB RAG, integrating 2-stage multi-factor scoring (RSI/ATR momentum, KR-FinBERT sentiment with exponential decay) and market regime circuit breakers validated via historical backtesting.
 
 engineering_experience:
-- title: Software Developer Intern, NewCureM (Severance Hospital Subsidiary), Seoul, Korea
-  date: Jan 2026 – Feb 2026
-  abstract: >-
-    • Redesigned and redeployed the corporate web platform using Node.js and Docker, modularizing frontend components and improving application maintainability.
-
+  - title: Software Developer Intern, NewCureM (Severance Hospital Subsidiary), Seoul, Korea
+    date: Jan 2026 – Feb 2026
+    abstract: >-
+      • Redesigned and redeployed the corporate web platform using Node.js and Docker, modularizing frontend components and improving application maintainability.
 
 activities:
-- name: Working Holiday Program — Sydney, Australia
-  date: Mar. 2023 – Nov. 2023
-  position: >-
-    Developed cross-cultural communication skills.
+  - name: Working Holiday Program — Sydney, Australia
+    date: Mar. 2023 – Nov. 2023
+    position: >-
+      Developed cross-cultural communication skills.
 
-- name: Member — Bon Bon Volunteering Club (Yonsei Univ.)
-  date: Mar. 2021 – Jun. 2021
-  position: >-
-    Organized and hosted a university flea market.<br>
-    Successfully raised funds, fully donated to local charity organizations.
+  - name: Member — Bon Bon Volunteering Club (Yonsei Univ.)
+    date: Mar. 2021 – Jun. 2021
+    position: >-
+      Organized and hosted a university flea market.<br>
+      Successfully raised funds, fully donated to local charity organizations.
 
-- name: Academic Outreach Mentor — Coursework (Yonsei Univ.)
-  date: Sep. 2018 – Dec. 2018
-  position: >-
-    Provided educational mentoring to out-of-school youth.<br>
-    Focused on instructional clarity and adapting to diverse learning environments.
-
+  - name: Academic Outreach Mentor — Coursework (Yonsei Univ.)
+    date: Sep. 2018 – Dec. 2018
+    position: >-
+      Provided educational mentoring to out-of-school youth.<br>
+      Focused on instructional clarity and adapting to diverse learning environments.
 
 techs:
-- name: Programming Languages
-  detail: Python, C++, C
+  - name: Programming Languages
+    detail: Python, C++, C
 
-- name: ML/DL & Backend
-  detail: PyTorch, TensorFlow, Docker, Git, Linux
+  - name: ML/DL & Backend
+    detail: PyTorch, TensorFlow, Docker, Git, Linux
 
-
-- name: Competitive Programming
-  detail: Solved over 500+ algorithmic problems (C + +) on Baekjoon Online Judge.
+  - name: Competitive Programming
+    detail: Solved over 500+ algorithmic problems (C + +) on Baekjoon Online Judge.
 
 interest:
-- name: Trustworthy LLM Agents
-- name: AI Provenance & Watermarking
-- name: Clinical & Scientific AI Workflows
-
+  - name: Trustworthy LLM Agents
+  - name: AI Provenance & Watermarking
+  - name: Clinical & Scientific AI Workflows
 
 langs:
-- name: Korean
-  detail: Native
+  - name: Korean
+    detail: Native
 
-- name: English
-  detail: IELTS 7.0<br>OPIC IH
+  - name: English
+    detail: IELTS 7.0<br>OPIC IH
 
-- name: Japanese
+  - name: Japanese
 
-- name: German
-  detail: Basic
+  - name: German
+    detail: Basic
