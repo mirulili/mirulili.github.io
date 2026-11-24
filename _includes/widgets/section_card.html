@@ -1,0 +1,13 @@
+{% if include.items %}
+    <div class="my-4 bg-white shadow-sm rounded-xl">
+        <div class="p-4">
+            <h6 class="mb-0 card-title-custom">{{ include.title }}</h6>
+            {% for item in include.items %}
+                {% include widgets/news_item.html
+                    item=item
+                    hide_bottom_border=forloop.last
+                %}
+            {% endfor %}
+        </div>
+    </div>
+{% endif %}

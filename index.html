@@ -12,7 +12,18 @@ navbar_title: Home
 {% include widgets/education_card.html %}
 
 {% if site.data.display.homepage.show_news %}
-    {% include widgets/news_card.html %}
+    {% include widgets/section_card.html
+        items=site.data.profile.research_experience
+        title='<i class="fas fa-flask"></i> &nbsp;Research Experience'
+    %}
+    {% include widgets/section_card.html
+        items=site.data.profile.awards
+        title='<i class="fas fa-trophy"></i> &nbsp;Honors & Awards'
+    %}
+    {% include widgets/section_card.html
+        items=site.data.profile.engineering_experience
+        title='<i class="fas fa-laptop-code"></i> &nbsp;Engineering Experience'
+    %}
 {% endif %}
 
 {% if site.data.display.homepage.show_experience %}
