@@ -66,7 +66,7 @@ awards:
   - title: ETRI President’s Award, AI Co-Scientist Challenge Korea 2026
     date: Apr 2026
     abstract: >-
-      • Received the ETRI President’s Award (KRW 1.5 million) in a national AI agent competition hosted by MSIT (Ministry of Science and ICT) and KISTI (Korea Institute of Science and Technology Information), selected among the Top 10 finalist teams out of 272 competing teams.<br>
+      • Received the ETRI President’s Award (KRW 1.5 million) in a national AI agent competition hosted by MSIT (Ministry of Science and ICT) and NRF (National Research Foundation of Korea), selected among the Top 10 finalist teams out of 272 competing teams.<br>
       • Architected a 7-agent workflow using LangGraph and vLLM, embedding statistical watermarks at generation time to preserve provenance across human edits.<br>
       • Designed a 4-signal verification pipeline combining watermark z-score detection, token-level diff attribution, and citation/reproducibility risk scoring on arXiv and LLaMA benchmarks.
 
