@@ -58,9 +58,9 @@ research_experience:
       • Designed a Hangul-aware watermark embedding algorithm for open-source LLMs, leveraging the structural properties of Korean grapheme composition.<br>
       • Explored watermark encoding and detection mechanisms based on Hangul decomposition (choseong, jungseong, and jongseong), targeting robustness against paraphrasing while preserving text naturalness.<br>
       • Led the end-to-end experimental pipeline, including open-source LLM fine-tuning, statistical detectability evaluation, and perplexity-based quality assessment.
-    link:
-      url: https://github.com/mirulili/3Ch-Jamo-Watermark
-      text: Link to Repository
+    # link:
+    #  url: https://github.com/mirulili/3Ch-Jamo-Watermark
+    #  text: Link to Repository
 
 awards:
   - title: ETRI President’s Award, AI Co-Scientist Challenge Korea 2026
